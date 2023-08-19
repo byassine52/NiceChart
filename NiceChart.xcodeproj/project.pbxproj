@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C2AF86892A903C4100C1D2E2 /* NiceChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86882A903C4100C1D2E2 /* NiceChartApp.swift */; };
-		C2AF868B2A903C4100C1D2E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF868A2A903C4100C1D2E2 /* ContentView.swift */; };
 		C2AF868D2A903C4200C1D2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AF868C2A903C4200C1D2E2 /* Assets.xcassets */; };
 		C2AF86902A903C4200C1D2E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AF868F2A903C4200C1D2E2 /* Preview Assets.xcassets */; };
 		C2AF869A2A903C4200C1D2E2 /* NiceChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86992A903C4200C1D2E2 /* NiceChartTests.swift */; };
 		C2AF86A42A903C4200C1D2E2 /* NiceChartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86A32A903C4200C1D2E2 /* NiceChartUITests.swift */; };
 		C2AF86A62A903C4200C1D2E2 /* NiceChartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86A52A903C4200C1D2E2 /* NiceChartUITestsLaunchTests.swift */; };
+		C2AF86B32A90465C00C1D2E2 /* CallToActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86B22A90465C00C1D2E2 /* CallToActionButtonStyle.swift */; };
+		C2AF86C22A90597A00C1D2E2 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86BD2A90597A00C1D2E2 /* Strings.swift */; };
+		C2AF86C32A90597A00C1D2E2 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86BE2A90597A00C1D2E2 /* Assets.swift */; };
+		C2AF86C92A90615F00C1D2E2 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86C82A90615F00C1D2E2 /* Font+Extensions.swift */; };
+		C2AF86CD2A9078D600C1D2E2 /* Text+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86CC2A9078D600C1D2E2 /* Text+Extensions.swift */; };
+		C2AF86CF2A908DC900C1D2E2 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86CE2A908DC900C1D2E2 /* View+Extensions.swift */; };
+		C2AF86D12A908E0700C1D2E2 /* PreviewDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86D02A908E0700C1D2E2 /* PreviewDevice.swift */; };
+		C2AF86D52A908EDB00C1D2E2 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86D42A908EDB00C1D2E2 /* Level.swift */; };
+		C2AF86D72A9091D900C1D2E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF868A2A903C4100C1D2E2 /* ContentView.swift */; };
+		C2AF86D92A90945400C1D2E2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86D82A90945400C1D2E2 /* ViewModel.swift */; };
+		C2AF86DE2A909A1500C1D2E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2AF86E02A909A1500C1D2E2 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,18 @@
 		C2AF869F2A903C4200C1D2E2 /* NiceChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AF86A32A903C4200C1D2E2 /* NiceChartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceChartUITests.swift; sourceTree = "<group>"; };
 		C2AF86A52A903C4200C1D2E2 /* NiceChartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceChartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2AF86B22A90465C00C1D2E2 /* CallToActionButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallToActionButtonStyle.swift; sourceTree = "<group>"; };
+		C2AF86BD2A90597A00C1D2E2 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		C2AF86BE2A90597A00C1D2E2 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		C2AF86C82A90615F00C1D2E2 /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		C2AF86CC2A9078D600C1D2E2 /* Text+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extensions.swift"; sourceTree = "<group>"; };
+		C2AF86CE2A908DC900C1D2E2 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		C2AF86D02A908E0700C1D2E2 /* PreviewDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewDevice.swift; sourceTree = "<group>"; };
+		C2AF86D42A908EDB00C1D2E2 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		C2AF86D82A90945400C1D2E2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C2AF86DF2A909A1500C1D2E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C2AF86E12A909A5F00C1D2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C2AF86E22A909C2D00C1D2E2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +102,8 @@
 				C2AF86862A903C4100C1D2E2 /* Products */,
 			);
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 1;
 		};
 		C2AF86862A903C4100C1D2E2 /* Products */ = {
 			isa = PBXGroup;
@@ -95,9 +119,11 @@
 			isa = PBXGroup;
 			children = (
 				C2AF86882A903C4100C1D2E2 /* NiceChartApp.swift */,
-				C2AF868A2A903C4100C1D2E2 /* ContentView.swift */,
-				C2AF868C2A903C4200C1D2E2 /* Assets.xcassets */,
+				C2AF86B62A9048A000C1D2E2 /* Common */,
+				C2AF86D32A908ECA00C1D2E2 /* Models */,
 				C2AF868E2A903C4200C1D2E2 /* Preview Content */,
+				C2AF86B92A90595000C1D2E2 /* Resources */,
+				C2AF86BA2A90596A00C1D2E2 /* Scenes */,
 			);
 			path = NiceChart;
 			sourceTree = "<group>";
@@ -127,6 +153,94 @@
 			path = NiceChartUITests;
 			sourceTree = "<group>";
 		};
+		C2AF86B62A9048A000C1D2E2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF86DB2A9099F900C1D2E2 /* Localizations */,
+				C2AF86C52A905A0000C1D2E2 /* Extensions */,
+				C2AF86B72A9048A700C1D2E2 /* Helpers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C2AF86B72A9048A700C1D2E2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF86B82A90539C00C1D2E2 /* SwiftGen */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C2AF86B82A90539C00C1D2E2 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF86BE2A90597A00C1D2E2 /* Assets.swift */,
+				C2AF86BD2A90597A00C1D2E2 /* Strings.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		C2AF86B92A90595000C1D2E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF868C2A903C4200C1D2E2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C2AF86BA2A90596A00C1D2E2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF86D62A9091A300C1D2E2 /* Home */,
+				C2AF86D22A908EC000C1D2E2 /* Styles */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C2AF86C52A905A0000C1D2E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF86C82A90615F00C1D2E2 /* Font+Extensions.swift */,
+				C2AF86D02A908E0700C1D2E2 /* PreviewDevice.swift */,
+				C2AF86CC2A9078D600C1D2E2 /* Text+Extensions.swift */,
+				C2AF86CE2A908DC900C1D2E2 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C2AF86D22A908EC000C1D2E2 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF86B22A90465C00C1D2E2 /* CallToActionButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		C2AF86D32A908ECA00C1D2E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF86D42A908EDB00C1D2E2 /* Level.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2AF86D62A9091A300C1D2E2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF868A2A903C4100C1D2E2 /* ContentView.swift */,
+				C2AF86D82A90945400C1D2E2 /* ViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C2AF86DB2A9099F900C1D2E2 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF86E02A909A1500C1D2E2 /* Localizable.strings */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +248,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2AF86A92A903C4200C1D2E2 /* Build configuration list for PBXNativeTarget "NiceChart" */;
 			buildPhases = (
+				C2AF86B42A9046AA00C1D2E2 /* Run Script: SwiftGen */,
+				C2AF86B52A9046B300C1D2E2 /* Run Script: SwiftLint */,
 				C2AF86812A903C4100C1D2E2 /* Sources */,
 				C2AF86822A903C4100C1D2E2 /* Frameworks */,
 				C2AF86832A903C4100C1D2E2 /* Resources */,
@@ -192,6 +308,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "ElBadaoui Inc.";
 				TargetAttributes = {
 					C2AF86842A903C4100C1D2E2 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -213,6 +330,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = C2AF867C2A903C4100C1D2E2;
 			productRefGroup = C2AF86862A903C4100C1D2E2 /* Products */;
@@ -232,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2AF86902A903C4200C1D2E2 /* Preview Assets.xcassets in Resources */,
+				C2AF86DE2A909A1500C1D2E2 /* Localizable.strings in Resources */,
 				C2AF868D2A903C4200C1D2E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,13 +371,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C2AF86B42A9046AA00C1D2E2 /* Run Script: SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script: SwiftGen";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# アーカイブするときにSwiftGenを飛ばす。\nif [ \"${ACTION}\" = 'install' ]; then\n  echo 'When archiving, skip SwiftGen.'\n  exit 0\nfi\n\n# Set Apple Silicon HomeBrew location\nif [ -d '/opt/homebrew/bin/' ]; then\n  export PATH=\"/opt/homebrew/bin/:${PATH}\"\nfi\n\nif type swiftgen >/dev/null 2>&1; then\n  swiftgen\nelse\n  echo 'warning: SwiftGen not installed. Download it from https://github.com/SwiftGen/SwiftGen'\nfi\n";
+		};
+		C2AF86B52A9046B300C1D2E2 /* Run Script: SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script: SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# アーカイブするときにSwiftLintを飛ばす。\nif [ \"${ACTION}\" = 'install' ]; then\n  echo 'When archiving, skip SwiftLint.'\n  exit 0\nfi\n\n# Set Apple Silicon HomeBrew location\nif [ -d '/opt/homebrew/bin/' ]; then\n  export PATH=\"/opt/homebrew/bin/:${PATH}\"\nfi\n\nif type swiftlint >/dev/null 2>&1; then\n  swiftlint\nelse\n  echo 'warning: SwiftLint not installed, download it from https://github.com/realm/SwiftLint'\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2AF86812A903C4100C1D2E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2AF868B2A903C4100C1D2E2 /* ContentView.swift in Sources */,
+				C2AF86C32A90597A00C1D2E2 /* Assets.swift in Sources */,
+				C2AF86B32A90465C00C1D2E2 /* CallToActionButtonStyle.swift in Sources */,
+				C2AF86D12A908E0700C1D2E2 /* PreviewDevice.swift in Sources */,
+				C2AF86D92A90945400C1D2E2 /* ViewModel.swift in Sources */,
+				C2AF86CD2A9078D600C1D2E2 /* Text+Extensions.swift in Sources */,
+				C2AF86C92A90615F00C1D2E2 /* Font+Extensions.swift in Sources */,
 				C2AF86892A903C4100C1D2E2 /* NiceChartApp.swift in Sources */,
+				C2AF86D72A9091D900C1D2E2 /* ContentView.swift in Sources */,
+				C2AF86CF2A908DC900C1D2E2 /* View+Extensions.swift in Sources */,
+				C2AF86D52A908EDB00C1D2E2 /* Level.swift in Sources */,
+				C2AF86C22A90597A00C1D2E2 /* Strings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +463,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		C2AF86E02A909A1500C1D2E2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2AF86DF2A909A1500C1D2E2 /* en */,
+				C2AF86E12A909A5F00C1D2E2 /* Base */,
+				C2AF86E22A909C2D00C1D2E2 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		C2AF86A72A903C4200C1D2E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -359,6 +542,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

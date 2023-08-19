@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  NiceChart
+
+  Created by Yassine ElBadaoui on 2023/08/19.
+  Copyright © 2023 ElBadaoui Inc. All rights reserved.
+*/
+
+"home.title" = "Hello\nSpeakBUDDY";
+"home.chart.present" = "現在";
+"home.chart.threeMonths" = "3ヶ月";
+"home.chart.oneyear" = "1年";
+"home.chart.twoYears" = "2年";
+"home.chart.xAxis.label" = "マイルストーン";
+"home.chart.yAxis.label" = "進捗度";
+"home.bottomText" = "スピークバディで";
+"home.gradientText" = "レベルアップ";
+"home.callToActionButtonText" = "プランに登録する";
