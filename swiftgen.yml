@@ -1,0 +1,20 @@
+input_dir: NiceChart
+output_dir: NiceChart/Common/Helpers/SwiftGen
+
+strings:
+  inputs:
+    - Common/Localizations/Base.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: Strings.swift
+      params:
+        publicAccess: true
+
+xcassets:
+  inputs:
+    - Resources/Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: Assets.swift
+      params:
+        publicAccess: true
