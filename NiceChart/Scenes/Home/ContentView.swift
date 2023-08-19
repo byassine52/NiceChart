@@ -3,6 +3,7 @@
 //  NiceChart
 //
 //  Created by Yassine ElBadaoui on 2023/08/19.
+//  Copyright © 2023 ElBadaoui Inc. All rights reserved.
 //
 
 import Charts
@@ -105,7 +106,7 @@ extension ContentView {
 				Chart {
 					ForEach(viewModel.level) { level in
 						BarMark(
-							x: .value(L10n.Home.Chart.XAxis.label, level.milestone),
+							x: .value(L10n.Home.Chart.XAxis.label, level.milestone.durationString),
 							y: .value(L10n.Home.Chart.YAxis.label, level.progress)
 						)
 					}

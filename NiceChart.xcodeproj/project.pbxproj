@@ -24,6 +24,7 @@
 		C2AF86D72A9091D900C1D2E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF868A2A903C4100C1D2E2 /* ContentView.swift */; };
 		C2AF86D92A90945400C1D2E2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF86D82A90945400C1D2E2 /* ViewModel.swift */; };
 		C2AF86DE2A909A1500C1D2E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2AF86E02A909A1500C1D2E2 /* Localizable.strings */; };
+		C2FBC8E72A90D26800D67B78 /* DateComponentsFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FBC8E62A90D26800D67B78 /* DateComponentsFormatter+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		C2AF86DF2A909A1500C1D2E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C2AF86E12A909A5F00C1D2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C2AF86E22A909C2D00C1D2E2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C2FBC8E32A90AA3C00D67B78 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C2FBC8E62A90D26800D67B78 /* DateComponentsFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponentsFormatter+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,10 +203,8 @@
 		C2AF86C52A905A0000C1D2E2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C2AF86C82A90615F00C1D2E2 /* Font+Extensions.swift */,
-				C2AF86D02A908E0700C1D2E2 /* PreviewDevice.swift */,
-				C2AF86CC2A9078D600C1D2E2 /* Text+Extensions.swift */,
-				C2AF86CE2A908DC900C1D2E2 /* View+Extensions.swift */,
+				C2FBC8E52A90D25900D67B78 /* Foundation */,
+				C2FBC8E42A90D25300D67B78 /* SwiftUI */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -239,6 +240,25 @@
 				C2AF86E02A909A1500C1D2E2 /* Localizable.strings */,
 			);
 			path = Localizations;
+			sourceTree = "<group>";
+		};
+		C2FBC8E42A90D25300D67B78 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF86C82A90615F00C1D2E2 /* Font+Extensions.swift */,
+				C2AF86D02A908E0700C1D2E2 /* PreviewDevice.swift */,
+				C2AF86CC2A9078D600C1D2E2 /* Text+Extensions.swift */,
+				C2AF86CE2A908DC900C1D2E2 /* View+Extensions.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		C2FBC8E52A90D25900D67B78 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				C2FBC8E62A90D26800D67B78 /* DateComponentsFormatter+Extensions.swift */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,12 +345,13 @@
 			};
 			buildConfigurationList = C2AF86802A903C4100C1D2E2 /* Build configuration list for PBXProject "NiceChart" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ja;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 				ja,
+				ar,
 			);
 			mainGroup = C2AF867C2A903C4100C1D2E2;
 			productRefGroup = C2AF86862A903C4100C1D2E2 /* Products */;
@@ -419,6 +440,7 @@
 			files = (
 				C2AF86C32A90597A00C1D2E2 /* Assets.swift in Sources */,
 				C2AF86B32A90465C00C1D2E2 /* CallToActionButtonStyle.swift in Sources */,
+				C2FBC8E72A90D26800D67B78 /* DateComponentsFormatter+Extensions.swift in Sources */,
 				C2AF86D12A908E0700C1D2E2 /* PreviewDevice.swift in Sources */,
 				C2AF86D92A90945400C1D2E2 /* ViewModel.swift in Sources */,
 				C2AF86CD2A9078D600C1D2E2 /* Text+Extensions.swift in Sources */,
@@ -470,6 +492,7 @@
 				C2AF86DF2A909A1500C1D2E2 /* en */,
 				C2AF86E12A909A5F00C1D2E2 /* Base */,
 				C2AF86E22A909C2D00C1D2E2 /* ja */,
+				C2FBC8E32A90AA3C00D67B78 /* ar */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

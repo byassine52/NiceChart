@@ -23,10 +23,10 @@ class ViewModel: ObservableObject {
 extension ViewModel {
 	/// Levels
 	static var levels = [
-		Level(milestone: "現在", progress: 66),
-		Level(milestone: "3ヶ月", progress: 100),
-		Level(milestone: "1年", progress: 220),
-		Level(milestone: "2年", progress: 300),
+		Level(milestone: Milestone(value: 0, unit: .month), progress: 66),
+		Level(milestone: Milestone(value: 3, unit: .month), progress: 100),
+		Level(milestone: Milestone(value: 1, unit: .year), progress: 220),
+		Level(milestone: Milestone(value: 2, unit: .year), progress: 300),
 	]
 
 	/// Preview fata.
