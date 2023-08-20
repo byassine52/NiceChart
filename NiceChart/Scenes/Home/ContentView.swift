@@ -175,9 +175,7 @@ extension ContentView {
 
 struct ContentView_Previews: PreviewProvider {
 	static var previews: some View {
-		Group {
-			ContentView(viewModel: .previewData)
-				.previewDevices()
-		}
+		ContentView(viewModel: .previewData)
+			.previewSelectedDevices()
 	}
 }
