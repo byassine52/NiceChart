@@ -70,6 +70,7 @@ extension ContentView {
 			chart
 			image
 		}
+		.frame(maxWidth: 340)
 	}
 
 	/// Bottom section.

@@ -64,11 +64,11 @@
 		C2AF86D02A908E0700C1D2E2 /* PreviewDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewDevice.swift; sourceTree = "<group>"; };
 		C2AF86D42A908EDB00C1D2E2 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		C2AF86D82A90945400C1D2E2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		C2AF86DF2A909A1500C1D2E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C2AF86E12A909A5F00C1D2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C2AF86E22A909C2D00C1D2E2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C2FBC8E32A90AA3C00D67B78 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C2FBC8E62A90D26800D67B78 /* DateComponentsFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponentsFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		C2FBC8E82A90D42B00D67B78 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C2FBC8E92A90D42E00D67B78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -489,10 +489,10 @@
 		C2AF86E02A909A1500C1D2E2 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C2AF86DF2A909A1500C1D2E2 /* en */,
 				C2AF86E12A909A5F00C1D2E2 /* Base */,
 				C2AF86E22A909C2D00C1D2E2 /* ja */,
-				C2FBC8E32A90AA3C00D67B78 /* ar */,
+				C2FBC8E82A90D42B00D67B78 /* ar */,
+				C2FBC8E92A90D42E00D67B78 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
