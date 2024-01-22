@@ -215,7 +215,7 @@
       }
     },
     "home.title" : {
-      "comment" : "Localizable.strings\n  NiceChart\n\n  Created by Yassine ElBadaoui on 2023/08/19.\n  Copyright © 2023 ElBadaoui Inc. All rights reserved.",
+      "comment" : "画面タイトル",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
