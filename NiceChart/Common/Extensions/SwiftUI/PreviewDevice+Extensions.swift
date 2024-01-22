@@ -1,5 +1,5 @@
 //
-//  PreviewDevice.swift
+//  PreviewDevice+Extensions.swift
 //  NiceChart
 //
 //  Created by Yassine ElBadaoui on 2023/08/19.
@@ -8,9 +8,9 @@
 
 import SwiftUI
 
-extension PreviewDevice {
+public extension PreviewDevice {
 	/// Default preview devices. Can be changed as needed.
-	public static var selectedDevices: [Device] {
+	static var selectedDevices: [Device] {
 		[
 			.iPhone_SE_1st_generation,
 			// .iPhone_8,
@@ -24,7 +24,8 @@ extension PreviewDevice {
 
 	/// Enum that defines all preview devices supported by simulator
 	/// Please consider auto-generating this Enum in a way similar to what is done with SwiftGen.
-	public enum Device: String, CaseIterable {
+	enum Device: String, CaseIterable {
+		case mac = "Mac"
 		case iPhone_6s = "iPhone 6s"
 		case iPhone_6s_Plus = "iPhone 6s Plus"
 		case iPhone_SE_1st_generation = "iPhone SE (1st generation)"
@@ -53,6 +54,10 @@ extension PreviewDevice {
 		case iPhone_14_Plus = "iPhone 14 Plus"
 		case iPhone_14_Pro = "iPhone 14 Pro"
 		case iPhone_14_Pro_Max = "iPhone 14 Pro Max"
+		case iPhone_15 = "iPhone 15"
+		case iPhone_15_Plus = "iPhone 15 Plus"
+		case iPhone_15_Pro = "iPhone 15 Pro"
+		case iPhone_15_Pro_Max = "iPhone 15 Pro Max"
 		case iPod_touch_7th_generation = "iPod touch (7th generation)"
 		case iPad_mini_4 = "iPad mini 4"
 		case iPad_Air_2 = "iPad Air 2"
@@ -107,5 +112,9 @@ extension PreviewDevice {
 		case Apple_Watch_Series_8_41mm = "Apple Watch Series 8 (41mm)"
 		case Apple_Watch_Series_8_45mm = "Apple Watch Series 8 (45mm)"
 		case Apple_Watch_Ultra_49mm = "Apple Watch Ultra (49mm)"
+		case Apple_Watch_Series_9_41mm = "Apple Watch Series 9 (41mm)"
+		case Apple_Watch_Series_9_45mm = "Apple Watch Series 9 (45mm)"
+		case Apple_Watch_Ultra_2_49mm = "Apple Watch Ultra 2 (49mm)"
+		case Apple_Vision_Pro = "Apple Vision Pro"
 	}
 }

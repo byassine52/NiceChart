@@ -30,16 +30,7 @@ struct ContentView: View {
 		}
 		.scrollIndicators(.hidden)
 		.padding(20)
-		.background(
-			LinearGradient(
-				gradient: Gradient(colors: [
-					Color(asset: Asset.backgroundGradientTop),
-					Color(asset: Asset.backgroundGradientBottom),
-				]),
-				startPoint: .top,
-				endPoint: .bottom
-			)
-		)
+		.background(background)
 		.ignoresSafeArea()
 	}
 }
@@ -47,6 +38,18 @@ struct ContentView: View {
 // - MARK: Screen Components
 
 extension ContentView {
+
+	/// Close button.
+	var background: some View {
+		LinearGradient(
+			gradient: Gradient(colors: [
+				Color.backgroundGradientTop,
+				Color.backgroundGradientBottom
+			]),
+			startPoint: .top,
+			endPoint: .bottom
+		)
+	}
 	/// Close button.
 	var closeButton: some View {
 		HStack {
@@ -58,10 +61,10 @@ extension ContentView {
 
 	/// Title.
 	var title: some View {
-		Text(L10n.Home.title)
+		Text("home.title")
 			.multilineTextAlignment(.center)
 			.font(.system(size: 36, weight: .bold))
-			.foregroundColor(Color(asset: Asset.text))
+			.foregroundColor(Color.text)
 	}
 
 	/// Chart section.
@@ -88,7 +91,7 @@ extension ContentView {
 	var image: some View {
 		VStack {
 			HStack {
-				Image(asset: Asset.protty)
+				Image(.protty)
 					.resizable()
 					.aspectRatio(contentMode: .fit)
 					.frame(height: 160)
@@ -107,8 +110,8 @@ extension ContentView {
 				Chart {
 					ForEach(viewModel.level) { level in
 						BarMark(
-							x: .value(L10n.Home.Chart.XAxis.label, level.milestone.durationString),
-							y: .value(L10n.Home.Chart.YAxis.label, level.progress)
+							x: .value("home.Chart.XAxis.label", level.milestone.durationString),
+							y: .value("home.Chart.YAxis.label", level.progress)
 						)
 					}
 				}
@@ -118,7 +121,7 @@ extension ContentView {
 						AxisTick(stroke: StrokeStyle(lineWidth: 0))
 						AxisValueLabel(anchor: .center)
 							.font(.system(size: 12, weight: .bold))
-							.foregroundStyle(Color(asset: Asset.text))
+							.foregroundStyle(Color.text)
 					}
 				}
 				.chartYAxis(.hidden)
@@ -126,8 +129,8 @@ extension ContentView {
 				.foregroundStyle(
 					LinearGradient(
 						colors: [
-							Color(asset: Asset.chartGradientTop),
-							Color(asset: Asset.chartGradientBottom)
+							Color.chartGradientTop,
+							Color.chartGradientBottom
 						],
 						startPoint: .top,
 						endPoint: .bottom
@@ -140,29 +143,29 @@ extension ContentView {
 
 	/// Call to action button.
 	var callToActionButton: some View {
-		Button(L10n.Home.callToActionButtonText) {}
+		Button("home.callToActionButtonText") {}
 			.buttonStyle(CallToActionButtonStyle())
 	}
 
 	/// Bottom text.
 	var bottomText: some View {
-		Text(L10n.Home.bottomText)
+		Text("home.bottomText")
 			.multilineTextAlignment(.center)
 			.font(.system(size: 20, weight: .semibold))
-			.foregroundColor(Color(asset: Asset.text))
+			.foregroundColor(Color.text)
 	}
 
 	/// Gradient text.
 	var gradientText: some View {
-		Text(L10n.Home.gradientText)
+		Text("home.gradientText")
 			.font(.system(size: 30, weight: .bold))
 			.tracking(-0.57)
 			.multilineTextAlignment(.center)
 			.foregroundStyle(
 				LinearGradient(
 					colors: [
-						Color(asset: Asset.textGradientTop),
-						Color(asset: Asset.textGradientBottom)
+						Color.textGradientTop,
+						Color.textGradientBottom
 					],
 					startPoint: .top,
 					endPoint: .bottom

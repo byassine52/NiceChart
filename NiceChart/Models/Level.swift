@@ -37,7 +37,7 @@ extension Milestone {
 	/// Duration string.
 	var durationString: String {
 		if value == 0 {
-			return L10n.Home.Chart.present
+			return "home.Chart.present"
 		} else {
 			let dateComponents: DateComponents
 			switch unit {
@@ -48,7 +48,7 @@ extension Milestone {
 				dateComponents = DateComponents(year: value)
 			}
 			let result = DateComponentsFormatter.durationFormatter.string(from: dateComponents)
-			return result ?? L10n.Home.Chart.present
+			return result ?? "home.Chart.present"
 		}
 	}
 
